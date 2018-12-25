@@ -1,0 +1,13 @@
+{
+  "include": [
+    "*.ts"
+  ],
+  "compilerOptions": {
+    "declarationDir": "../.commonCache/declaration",
+    "lib": ["es2015", "scripthost"],
+    "outDir": "../.commonCache/out",
+    "types": [],
+    "target": "ES2017"
+  },
+  "extends": "../tsconfigBase"
+}

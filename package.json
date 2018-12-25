@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "engines": {
+    "node": "^8.11.3"
+  },
+  "scripts": {
+    "watch": "tsc --build --watch"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "typescript": "3.2.2"
+  }
+}

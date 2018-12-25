@@ -1,0 +1,15 @@
+{
+  "include": [
+    "*.ts"
+  ],
+  "compilerOptions": {
+    "declarationDir": "../.clientCache/declaration",
+    "lib": ["dom", "dom.iterable", "es2015", "scripthost"],
+    "outDir": "../.clientCache/out",
+    "target": "ES2017"
+  },
+  "extends": "../tsconfigBase",
+  "references": [
+    { "path": "../common" }
+  ]
+}
